@@ -1,0 +1,6 @@
+{"env":{"DB_USERNAME":"zhouwg",
+    "DB_PASSWORD":"ccciiiooo",
+    "DB_NAME":"mern",
+    "JWT_SE_KEY":"backkey-in-not-telling"
+    }
+}
