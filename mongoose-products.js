@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 const Product=require('./model/products');
 
-mongoose.connect('mongodb+srv://zhouwg:ccciiiooo@cluster0.vzwzd.mongodb.net/productTest?retryWrites=true&w=majority'
+mongoose.connect('mongodb+srv://username:password@cluster0.vzwzd.mongodb.net/productTest?retryWrites=true&w=majority'
 , { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(()=>{}).catch(()=>{});
 
