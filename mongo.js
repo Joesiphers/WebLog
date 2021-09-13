@@ -2,7 +2,7 @@
 const MongoClient = require('mongodb').MongoClient;
              
 const createProducts= async (req,res,next)=>{
-    const uri = "mongodb+srv://zhouwg:ccciiiooo@cluster0.vzwzd.mongodb.net/productTest?retryWrites=true&w=majority";
+    const uri = "";
     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
     const newProducts={
@@ -23,7 +23,7 @@ const createProducts= async (req,res,next)=>{
  
 exports.createProducts=createProducts;
 const getProducts = async (req,res,next)=>{
-    const uri = "mongodb+srv://zhouwg:ccciiiooo@cluster0.vzwzd.mongodb.net/productTest?retryWrites=true&w=majority";
+    const uri = "";
     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
     try{
