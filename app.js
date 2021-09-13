@@ -37,7 +37,7 @@ app.use((error, req,res,next)=>{ //唯一的要有error在最前面的，对所�
 try {
 mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.vzwzd.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
 , { useNewUrlParser: true, useUnifiedTopology: true });
-app.listen(process.env.PORT||5000) ;
+app.listen(process.env.PORT||5000) ;        
 } catch (err){
     console.log('mongoDB connection fail',403);
 return (err)
